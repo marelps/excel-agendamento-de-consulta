@@ -33,7 +33,6 @@ Além disso, era um documento simples que era possível que outras pessoas com d
   
 As especialidades, exames e local da realização foram já pré-cadastradas para uso pessoal na época em que eu fazia estágio em um centro clínico, porém é possível adicionar ou remover dados através das macros feitas.
 
- ***
  ## Imagens
  Através de um botão visto no topo da planilha, é possível abrir esse formulário e é aqui que é possível cadastrar os agendamentos que chegava para mim no estágio.
 
@@ -41,11 +40,9 @@ As especialidades, exames e local da realização foram já pré-cadastradas par
 
 
 ## Autor
----
  <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/48718646?v=4" width="100px;" alt="Autora do projeto"/>
  <br />
  <sub><b>Vitória Garrucho</b></sub>
-
 
 Feito com ❤️ por Vitória Garrucho
 
@@ -53,7 +50,7 @@ Entre em contato através das minhas redes sociais!
 
 [![Twitter Badge](https://img.shields.io/badge/-@piterparquinho-1ca0f1?style=flat-square&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/piterparquinho)](https://twitter.com/piterparquinho) [![Linkedin Badge](https://img.shields.io/badge/-Vitória-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/vitoriagarrucho/)](https://www.linkedin.com/in/vitoriagarrucho/) 
 [![Gmail Badge](https://img.shields.io/badge/-vitoriagarrucho@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:vitoriagarrucho@gmail.com)](mailto:vitoriagarrucho@gmail.com)
-***
+
 ## Licença
 
 Este projeto esta sobe a licença [MIT](./LICENSE).
@@ -61,6 +58,6 @@ Este projeto esta sobe a licença [MIT](./LICENSE).
 Feito com ❤️ por Vitória Garrucho
 
 [Entre em contato!](https://www.linkedin.com/in/vitoriagarrucho/)
-***
+
 ## README
 [Português](./README.md)  |  [English](./README-en.md)
