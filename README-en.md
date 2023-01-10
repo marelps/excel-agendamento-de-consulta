@@ -6,43 +6,43 @@
   <img alt="Github last commit" src="https://img.shields.io/github/last-commit/marelps/excel-agendamento-de-consulta?style=flat-square">
    <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
   <a href="https://rocketseat.com.br">
-    <img alt="Feito por Vitória" src="https://img.shields.io/badge/feito%20por-Vitória-%237519C1">
+    <img alt="Made by vitória" src="https://img.shields.io/badge/made%20by-Vitória-%237519C1">
   </a>
 
-# Planilha de agendamento de consulta em Excel Macro
+# Appointment scheduling spreadsheet in Excel Macro
 <h4 align="center"> 
-	✅ Planilha Concluída ✅
+	✅ Spreadsheet Completed ✅
 </h4>
 
-##  Planilha em excel com botão macro que insere dados para agendamento de consulta como especialidades, exames, local da realização do exame, data e horário. 
+##  Excel spreadsheet with macro button that inserts data for scheduling appointments such as specialties, exams, exam location, date and time.
 
 <p align="center">
- <a href="#objetivo">Objetivo</a> •
- <a href="#como-usar">Como Usar</a> •  
- <a href="#autor">Autor</a> • 
-  <a href="#licença">Licença</a> • 
- <a href="#readme">Versões do README</a>
+ <a href="#about">About</a> •
+ <a href="#how-to-use">How to Use</a> •  
+ <a href="#Author">Author</a> • 
+ <a href="#license">License</a> • 
+ <a href="#readme">Versions of README</a>
 </p>
 
-## Objetivo
-Essa planilha foi criada na época em que eu estagiava em um centro de infecctologia e senti a necessidade de facilitar algumas das minhas principais funções lá dentro: o cadastro dos agendamentos em uma planilha para que eu pudesse ter controle do que estava fazendo e ciência de todos os agendamentos que chegava até mim. 
+## About
+This spreadsheet was created when I was an intern at an infectious disease center and felt the need to facilitate some of my main functions there: the registration of appointments in a spreadsheet so that I could have control of what I was doing and be aware of all the appointments that came to me.
 
-A ideia foi muito bem abraçada por meus supervisores pois todo o processo do agendamento ainda tinha muitas falhas que não só dependiam da nossa unidade e sim de todas as unidades de saúde da prefeitura da cidade. 
+The idea was very well embraced by my supervisors because the whole scheduling process still had many flaws that depended not only on our unit but on all the health units in the city. 
 
-Além disso, era um documento simples que era possível que outras pessoas com diferentes tipos de conhecimento com excel ou computadores no geral, pudessem utilizar o mesmo arquivo sem trazer nenhum problema com a formatação ou coisas escritas em lugares errados.
+In addition, it was a simple document that was possible that other people with different kinds of knowledge with excel or computers in general, could use the same file without bringing any problems with formatting or things written in the wrong places.
   
-As especialidades, exames e local da realização foram já pré-cadastradas para uso pessoal na época em que eu fazia estágio em um centro clínico, porém é possível adicionar ou remover dados através das macros feitas.
+The specialties, exams and place of performance were already pre-registered for personal use at the time I was an intern in a clinical center, but it is possible to add or remove data through the macros made.
 
- ## Como Usar
- Através de um botão visto no topo da planilha, é possível abrir esse formulário e é aqui que é possível cadastrar os agendamentos que chegava para mim no estágio.
+ ## How to Use
+ Through a button seen at the top of the spreadsheet, you can open this form and this is where you can register the appointments that came in for me at the internship.
 
 <p align="center">
    <img src="imgs/form.png" alt="Form">
 </p>
 
- ### Macros
- Macros utilizadas no formulário. Textos escritos com um ' no começo da linha, são alguns comentários que fiz para me localizar.
- ```
+### Macros
+ Macros used in the form. Text written with a ' at the beginning of the line, are some comments I made to localize myself.
+  ```
 'Identifica o tipo do objeto e insere se for um dos tipos definidos
 Private Sub lsInserir(ByRef lTextBox As Variant, ByVal Plan1 As String, ByVal lColunaCodigo As Long, ByVal lUltimaLinha As Long)
     If (TypeOf lTextBox Is MSForms.TextBox) Or (TypeOf lTextBox Is MSForms.ComboBox) Then
@@ -114,11 +114,12 @@ End Sub
 
  ```
  ***
-Macro utilizada para chamar o formulário no botão localizado no topo da planilha
+Macro used to call the form on the button located at the top of the spreadsheet
 
 <p align="center">
    <img src="imgs/button.jpeg" alt="Button in the top of the spreadsheet">
 </p>
+
 
 
 ```
@@ -126,26 +127,25 @@ Sub ChamarFormCadastro()
     frmCadastro.Show
 End Sub
 ```
-
-## Autor
+## Author
 <p align="center">
  <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/48718646?v=4" width="100px;" alt="Autora do projeto"/>
  <br />
- <sub><b>Vitória Garrucho</b></br> Feito com ❤️</sub></p>
+ <sub><b>Vitória Garrucho</b></br> Made with ❤️</sub></p>
 
-<p align="center">Entre em contato através das minhas redes sociais!<br>
+<p align="center">Contact me through my social!<br>
 <a href="https://twitter.com/piterparquinho" target="_blank"><img src="https://img.shields.io/badge/-@piterparquinho-1ca0f1?style=flat-square&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/piterparquinho" alt="Twitter Badge"></a>
 <a href="https://www.linkedin.com/in/vitoriagarrucho/" target="_blank"><img src="https://img.shields.io/badge/-Vitória-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/vitoriagarrucho/" alt="Linkedin Badge"></a>
 <a href="mailto:vitoriagarrucho@gmail.com" target="_blank"><img src="https://img.shields.io/badge/-vitoriagarrucho@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:vitoriagarrucho@gmail.com" alt="Gmail Badge"></a>
  </p>
 
-## Licença
+## License
 
-Este projeto esta sobe a licença [MIT](./LICENSE).
+This project is under license [MIT](./LICENSE).
 
-Feito com ❤️ por Vitória Garrucho
+Made with ❤️ by Vitória Garrucho
 
-<a href="https://www.linkedin.com/in/vitoriagarrucho/" target="_blank">Entre em contato!</a>
+<a href="https://www.linkedin.com/in/vitoriagarrucho/" target="_blank">Contact me!</a>
 
 ## README
 [Português](./README.md)  |  [English](./README-en.md)
