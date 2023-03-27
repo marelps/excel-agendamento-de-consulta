@@ -11,7 +11,7 @@
 
 # Appointment scheduling spreadsheet in Excel Macro
 <h4 align="center"> 
-	✅ Spreadsheet Completed ✅
+	✅ Completed Spreadsheet ✅
 </h4>
 
 ##  Excel spreadsheet with macro button that inserts data for scheduling appointments such as specialties, exams, exam location, date and time.
